@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.teamtreehouse.giflib.iml" filepath="$PROJECT_DIR$/.idea/modules/com.teamtreehouse.giflib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.teamtreehouse.giflib_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.teamtreehouse.giflib_main.iml" group="com.teamtreehouse.giflib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.teamtreehouse.giflib_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.teamtreehouse.giflib_test.iml" group="com.teamtreehouse.giflib" />
+    </modules>
+  </component>
+</project>

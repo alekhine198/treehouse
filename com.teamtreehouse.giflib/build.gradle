@@ -1,0 +1,41 @@
+group 'gif_lib-hibernate'
+version '1.0-SNAPSHOT'
+
+//buildscript
+buildscript {
+    repositories{
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.springframework.boot:spring-boot-gradle-plugin:1.5.10.RELEASE'
+
+    }
+}
+
+apply plugin: 'org.springframework.boot'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '1.5.10.RELEASE'
+    // https://mvnrepository.com/artifact/org.hashids/hashids
+    compile group: 'org.hashids', name: 'hashids', version: '1.0.3'
+    // https://mvnrepository.com/artifact/org.springframework/spring-orm
+    compile group: 'org.springframework', name: 'spring-orm', version: '5.0.3.RELEASE'
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.12.Final'
+    // https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-dbcp
+    compile 'org.apache.tomcat:tomcat-dbcp:9.0.4'
+    // https://mvnrepository.com/artifact/com.h2database/h2
+    compile group: 'com.h2database', name: 'h2', version: '1.4.196'
+
+
+}
